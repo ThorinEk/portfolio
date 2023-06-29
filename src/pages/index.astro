@@ -17,7 +17,7 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 
 // Content Fetching: List four most recent work projects
-const projects = (await getCollection('work'))
+const projects = (await getCollection('projekt'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
 
@@ -53,7 +53,7 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Utvalda uppdrag</h3>
+					<h3>Utvalda projekt</h3>
 					<p>Ta en titt nedan på några av mina framstående arbeten för kunder från de senaste åren.</p>
 				</header>
 
@@ -70,7 +70,7 @@ const projects = (await getCollection('work'))
 				</div>
 
 				<div class="cta">
-					<CallToAction href="/work/">
+					<CallToAction href="/projekt/">
 						Visa alla
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
@@ -79,17 +79,16 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>Kunskaper</h3>
 					<p>
-						I have been fortunate enough to recieve praise for my work in several publications. Take
-						a look below to learn more.
+						Nedan kan du se ett urval av olika tekniker, programmeringsspråk, ramverk och områden som jag har erfarenhet av att arbeta med.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
+							['Serverless', 'DevOps', 'Docker', 'Flutter', 'Angular', 'Qt (C++)', '.NET (C#)', 'Express (Node.js)', 'C#', 'C++', 'Java', 'Kotlin', 'Python', 'Dart', 'JavaScript', 'TypeScript', 'Swift & SwiftUI'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
@@ -228,7 +227,7 @@ const projects = (await getCollection('work'))
 
 	.mention-card {
 		display: flex;
-		height: 7rem;
+		height: 3rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -242,7 +241,7 @@ const projects = (await getCollection('work'))
 	@media (min-width: 50em) {
 		.mention-card {
 			border-radius: 1.5rem;
-			height: 9.5rem;
+			height: 3.5rem;
 		}
 	}
 </style>
