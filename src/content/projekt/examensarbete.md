@@ -1,5 +1,5 @@
 ---
-title: Examensarbete
+title: examensarbete
 publishDate: 2023-06-29 00:00:00
 img: /assets/Examensarbete.webp
 img_alt: Gustav Persson 
