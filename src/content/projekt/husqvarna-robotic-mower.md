@@ -1,7 +1,7 @@
 ---
 title: Husqvarna Robotgräsklippare
 publishDate: 2023-06-01 00:00:00
-img: /assets/robotic-mower.webp
+img: /assets/robot-mower-system.webp
 img_alt: AI-genererad bild föreställande ett intelligent mobilt system centrerat kring en robotgräsklippare
 description: |
   Jag var med och utvecklade ett intelligent mobilt system som motsvarade Husqvarnas robotgräsklippare samt tillhörande mobilapplikation och backend.
@@ -11,12 +11,12 @@ tags:
   - Backend
 ---
 
-Som slutprojekt på min utbildning, parallellt med examensarbetet, deltog jag i ett mycket intressant projekt där målet var ett intelligent mobilt system för robotgräsklippare, likt det som erbjuds av Husqvarna AB. Kursen hette Intelligenta Mobila System och bedrevs i samarbete med Husqvarna AB.
+Mitt slutprojekt under utbildningen, som löpte parallellt med examensarbetet, involverade att jag deltog i ett fascinerande projekt med målet att skapa ett intelligent mobilt system för robotgräsklippare, liknande det som Husqvarna AB tillhandahåller. Projektet utfördes inom ramen för kursen "Intelligenta Mobila System", vilken samordnades i samarbete med Husqvarna AB.
 
-Jag ingick i ett team av åtta personer som fick uppgiften att bygga en lösning kring en Arduino Mbot vilket är en liten robot avsedd just för användning i utbildningssammanhang. Medan denna emmellertid inte kan jämföras med en riktig robotgräsklippare från Husqvarna, var den perfekt för detta tidsbegränsade projekt där den möjliggjorde utveckling gentemot den. 
+I mitt team av åtta personer fick vi uppgiften att bygga en lösning kring en Arduino Mbot, en liten robot konstruerad specifikt för utbildningssyften. Trots att den inte kan jämföras med en fullfjädrad robotgräsklippare från Husqvarna, fungerade den perfekt för detta tidsbegränsade projekt genom att erbjuda oss en praktisk modell att utveckla lösningen för.
 
-Inom detta projektet arbetade jag huvudsakligen med backenden eftersom jag insett att det är där jag har mitt största intresse och det är det området jag fördjupat mig mest inom, även om jag uppskattar variationen i att även få jobba med frontend ibland. 
+I detta projekt ägnade jag mig främst åt att arbeta med backend, vilket överensstämmer med mitt primära intresse och det område jag har mest erfarenhet av, även om jag uppskattar variationen i att också få jobba med frontend ibland.
 
-Syftet med backenden som jag utvecklade var att hantera och lagra navigeringsdata från robot för att i realtid kunna se var denna befinner sig men också se tidigare körningar. Vidare behövde backenden även kunna ta emot bilder som roboten laddade upp föreställande hinder den upptäckt och undvikit, dessa bilder skulle sedan skickas vidare för klassicifering av Google Vision AI. Bildklassificering innebär i detta fall att en AI-algoritm identiferar motivet på bilden och skickar tillbaka denna data, exempelvis "Läskburk". Detta var förstås mycket intressant och öppnade ögonen för möjligheten att utnyttja den typen av AI-lösningar, utöver revolutionerande AI-lösningar såsom ChatGPT, lanserade kort innan kursens start.
+Backenden jag utvecklade var avsedd att hantera och lagra navigationsdata från roboten för att i realtid kunna visualisera dess position samt visa tidigare körningar. Dessutom behövde backenden kunna ta emot bilder av hinder som roboten upptäckte och undvek, och sedan vidarebefordra dessa bilder för klassificering av Google Vision AI. Bildklassificering innebar att en AI-algoritm identifierade objekten i bilderna och returnerade denna data, till exempel "läskburk". Detta var oerhört spännande och belyste potentialen att utnyttja denna typ av AI-lösningar.
 
-I gruppen fanns även två ytterligare studiekamrater som arbetade med backenden, tre som arbetade med mobilapplikationen och två från det parallella programmet *Inbyggda system* som programmerade själva roboten. Som kunde förväntas var samarbete i en sådan stor grupp utmanande men fungerade trots det mycket väl och vi fick till en välfungerande slutprodukt som kunde demononstreras på plats hos Husqvarna.
+Utöver mig var två andra studiekamrater ansvariga för backenden, tre arbetade med mobilapplikationen och två från det parallella programmet "Inbyggda system" programmerade roboten. Samarbetet i en så stor grupp var en utmaning men fungerade mycket väl, och vi lyckades framställa en väl fungerande slutprodukt som vi kunde demonstrera på plats hos Husqvarna.
