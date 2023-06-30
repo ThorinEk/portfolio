@@ -13,8 +13,8 @@ tags:
   - PDF
 ---
 
-Via Albia fick jag uppdraget att utveckla ett system för att optimera hanteringen av inkommande fakturaflöden. Trots att det fanns befintliga steg i flödet, så krävdes en konverteringsfunktion för att göra informationen läsbar för affärssystemet. Utmaningen låg i att hantera en äldre integrationslösning som använde XML-filer. Min uppgift innefattade att avläsa dessa filer och därefter koppla samman PDF-dokument som hörde till samma faktura.
+I samarbete med Ernst & Young (EY), ett av världens största professionella tjänsteföretag, fick jag via Albia uppdraget att utveckla ett system för att optimera hanteringen av inkommande fakturaflöden. Trots att det fanns befintliga steg i flödet, så krävdes en konverteringsfunktion för att göra informationen läsbar för affärssystemet. Utmaningen låg i att hantera en äldre integrationslösning som använde XML-filer. Min uppgift innefattade att avläsa dessa filer och därefter koppla samman PDF-dokument som hörde till samma faktura.
 
-Som en konstant källa till datainflöde, kunde min lösning konstant ta emot data från en part, konvertera denna, och sedan vidarebefordra den till den slutliga mottagaren. Genom denna process, har jag fått betydande kunskaper inom hantering och bearbetning av dokument såsom PDF:er och XML-filer.
+Som en konstant källa till datainflöde, kunde min lösning kontinuerligt ta emot data från en part, konvertera denna, och sedan vidarebefordra den till den slutliga mottagaren. Genom denna process, har jag fått betydande kunskaper inom hantering och bearbetning av dokument såsom PDF:er och XML-filer.
 
 Utöver detta, fanns behovet av en övervakningslösning för att både i realtid och retroaktivt kunna övervaka fakturor som passerade genom systemet, samt generera relevant statistik. Detta ledde mig till att utveckla ett webbgränssnitt som innehåller alla dessa funktioner, vilket ökar transparensen och effektiviteten i systemet.
