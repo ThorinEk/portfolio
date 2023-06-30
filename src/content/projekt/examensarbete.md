@@ -15,6 +15,10 @@ tags:
 
 Ovanstående är titeln på mitt examensarbete. Vi valde denna titel med anledning av vårt fokus som låg på att förebygga och minska fördröjningen hos interaktiva system som en följd av "cold starts". 
 
+### Samarbetsföretag
+
+Vi hade förmånen att få skriva examensarbetet med hjälp av Knowit. Vi hade tillgång till expertisen hos en av Knowits mycket kompetenta och erfarna utvecklare som bidrog till att avsevärt höja nivån på vårt arbete.
+
 ### Serverless functions
 
 Serverless-functions är ett koncept som tillåter utvecklare att köra kod utan att behöva hantera underliggande infrastruktur. Utvecklaren skapar och laddar upp koden, medan serverless-plattformar (som AWS Lambda, Google Cloud  eller Azure) sköter drift, skalning, back-ups och säkerhet. Den primära fördelen med denna metod är att du bara betalar för den tid din kod faktiskt körs, vilket kan leda till betydande kostnadsbesparingar. 
