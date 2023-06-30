@@ -25,6 +25,12 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+const date = entry.data.publishDate
+const publishYear = date.getFullYear();
+const publishMonth = ("0" + (date.getMonth() + 1)).slice(-2); // Months are 0 based. Add leading 0 and slice last 2 characters
+const publishDay = ("0" + date.getDate()).slice(-2);
+
 ---
 
 <BaseLayout title={entry.data.title + ' | Gustav Persson'} description={entry.data.description}>
@@ -44,8 +50,12 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
+				<div class="stack content">
 					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					
+					<div class="publish-date">
+						<p>{`${publishYear}-${publishMonth}-${publishDay}`}</p>
+					</div>
 					<div class="content">
 						<Content />
 					</div>
@@ -108,6 +118,13 @@ const { Content } = await entry.render();
 		box-shadow: var(--shadow-sm);
 		background: var(--gradient-subtle);
 		border: 1px solid var(--gray-800);
+	}
+
+	.publish-date {
+		display: flex;
+		justify-content: end;
+		margin-top: 0.7rem;
+		margin-bottom: 1.5rem;
 	}
 
 	.content :global(blockquote) {
