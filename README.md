@@ -1,5 +1,7 @@
 # Personlig webbplats
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0928a24d-5b6c-4af3-a450-f322d29231c6/deploy-status)](https://app.netlify.com/sites/gustav-persson-portfolio/deploys)
+
 
 ## 🧞 Commands
 
