@@ -2,7 +2,7 @@
 title: Albia kundportal
 publishDate: 2020-09-05 00:00:00
 img: /assets/kundportal.png
-img_alt: Screenshot from QMap warehouse management interactive graphic prototype
+img_alt: Screenshot av Albias kundportal då den visas på en bärbar dator
 description: |
   Jag har under några års tid utvecklat och underhållt Albias kundportal vilken används för att låta kunder kunna se orderhistorik, fakturor, teknisk utrustning som köpts in via Albia samt hantera domännamn.
 tags:

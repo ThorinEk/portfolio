@@ -9,6 +9,7 @@ tags:
   - Flutter
   - Scrum
   - Cross Platform
+  - DevOps
 ---
 
 ## Sammanhang
