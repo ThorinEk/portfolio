@@ -21,7 +21,7 @@ En viktig aspekt av projektet var att vi skulle använda Docker för webbapplika
 
 ## Frontend
 
-Målet med att utveckla en API för webbapplikationen var att möjliggöra skapandet av en Single Page Application (SPA) på frontend-sidan för att få praktisk erfarenhet. Givet att kursens syfte främst var inlärning, var det inte tillåtet att använda några ramverk för detta, som till exempel Angular. Detta innebar att all JavaScript-kod på frontend skulle skrivas manuellt, vilket är en betydande utmaning. Till min stora förtret märkte jag att kursens innehåll ändrades året efter för att tillåta användning av frontend-ramverk som Angular eller Svelte. Trots detta var kursen en av de mest lärorika jag deltagit i och förmedlade en stor mängd av de kunskaper som krävs för att kunna arbeta professionellt med dagens tekniker.
+Målet med att utveckla en API för webbapplikationen var att möjliggöra skapandet av en Single Page Application (SPA) på frontend-sidan för att få praktisk erfarenhet. Givet att kursens syfte främst var inlärning, var det inte tillåtet att använda några ramverk för detta, som till exempel Angular. Detta innebar att all JavaScript-kod på frontend skulle skrivas manuellt, vilket är en betydande utmaning. Till min stora förtret upptäckte jag att kursens innehåll ändrades året efter för att tillåta användning av frontend-ramverk som Angular eller Svelte. Trots detta var kursen en av de mest lärorika jag deltagit i och förmedlade en stor mängd av de kunskaper som krävs för att kunna arbeta professionellt med dagens tekniker.
 
 ## Redis
 
