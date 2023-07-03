@@ -13,7 +13,7 @@ tags:
 
 ## Mål
 
-Kundportalen hos Albia är ett initiativ som startade nästan omedelbart efter att företaget grundades i mitten av 2020, strax efter att jag och min kollega Erik tog studenten från gymnasiet. Kundportalen är främst utformad för att visa data från olika tjänster som Albia och dess kunder använder. Vi använder oss av flera olika API:er för detta ändamål, inklusive Fortnox API, som jag har stor erfarenhet av att arbeta med, samt NameSRS API för domännamn. Vi planerar att integrera ännu fler tjänster framöver.
+Kundportalen hos Albia är ett initiativ som startade nästan omedelbart efter att företaget grundades i mitten av 2020, strax efter att jag och min kollega Erik Wismén tog studenten från gymnasiet. Kundportalen är främst utformad för att visa data från olika tjänster som Albia och dess kunder använder. Vi använder oss av flera olika API:er för detta ändamål, inklusive Fortnox API, som jag har stor erfarenhet av att arbeta med, samt NameSRS API för domännamn. Vi planerar att integrera ännu fler tjänster framöver.
 
 ## Mentorskap
 
