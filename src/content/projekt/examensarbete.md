@@ -13,7 +13,7 @@ tags:
 
 ## Mitigating Serverless Cold Starts Through Predicting Computational Resource Demand
 
-Ovanstående är titeln på mitt examensarbete. Vi valde denna titel med anledning av vårt fokus som låg på att förebygga och minska fördröjningen hos interaktiva system som en följd av "cold starts". 
+Ovanstående är titeln på mitt examensarbete. Vi valde denna titel med anledning av vårt fokus som låg på att förebygga och minska fördröjningen hos interaktiva system som en följd av "cold starts". Examensarbetet är publicerat i Digitala Vetenskapliga Arkivet (DiVA portal) och tillgängligt [här](https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Ahj%3Adiva-61983).
 
 ### Samarbetsföretag
 
